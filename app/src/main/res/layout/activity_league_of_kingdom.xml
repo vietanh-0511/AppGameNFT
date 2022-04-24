@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailgame.LeagueOfKingdom"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Detail"
+            android:textColor="@color/purple_300"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvGameIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvHeader"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:id="@+id/imgGameIcon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/leagueofkingdomslogo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvGameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="League of Kingdoms"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/cvGameIcon"
+        app:layout_constraintTop_toBottomOf="@+id/cvHeader"
+        app:layout_constraintBottom_toTopOf="@+id/btnGet"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameName"
+        app:layout_constraintLeft_toRightOf="@+id/cvGameIcon"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:text="Get"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="0dp"
+        android:paddingVertical="10dp"
+        android:background="@drawable/rounded_corner"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImageGame"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvGameIcon"
+        app:layout_constraintVertical_bias="0.028">
+
+        <ImageView
+            android:id="@+id/imgGame"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/leagueofkingdoms"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvGameDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:text="'League of Kingdoms' is an MMO Strategy game where you can fully own and seamlessly trade digital assets through NFT technology."
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/cvImageGame" />
+
+    <TextView
+        android:id="@+id/tvToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Token"
+        android:textColor="@color/purple_300"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameDescription" />
+
+    <ImageView
+        android:id="@+id/imgToken"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/leaguecoin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvToken" />
+
+    <TextView
+        android:id="@+id/tvTokenName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:text="LOKA"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tvTokenDescription"
+        app:layout_constraintLeft_toRightOf="@+id/imgToken"
+        app:layout_constraintTop_toBottomOf="@+id/tvToken" />
+
+    <TextView
+        android:id="@+id/tvTokenDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+        android:text="LOKA can be earned by playing the game. Once you earn them, you can claim them to your wallet."
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgToken" />
+
+    <TextView
+        android:id="@+id/tvEarn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Earn"
+        android:textColor="@color/purple_300"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTokenDescription" />
+
+
+    <TextView
+        android:id="@+id/tvEarnDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+        android:text="Quest: When you complete the quests in the game, you will receive Quest Points. After receiving enough Quest Points, you will be able to exchange them for $coin
+        \nRanking Rewards: Players can earn $coin if they rank up."
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEarn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

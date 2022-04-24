@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.240625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/drawable/rounded_corner.xml" value="0.240625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_aavegotchi.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_all_game.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_axie_infinity.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_bomb_crypto.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_bsc.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_crypto_kitties.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_detail_game.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_etherium.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_idle_mystic.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_league_of_kingdom.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_metamon_island.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_moon_cat_rescue.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_pegaxy.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_polygon.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_the_sanbox.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_tiny_hero.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/activity_zoo_crypto_world.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/layout/item_list_game.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/AppGameNFT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14166666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
